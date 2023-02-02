@@ -1,0 +1,20 @@
+Q1) https://github.com/AidanHoremans/cmput404Lab4
+
+Q2) The browser shows a basic webpage with the text "The install worked successfully! Congratulations!" and a little rocketship
+
+Q3) The root path / shows a 404 and tells us the paths that exist, /polls and /admin.
+/polls shows us the text we entered in the polls/views.py file, "Hello world! You're at the polls index"
+
+Q4) In order to update our database schema, we need to do it in the form of a migration. Whenever we add or change a model,
+we create and run a migration and django can generate the proper SQL for the database.
+
+Q5) Gives us a site administration page with tabs to add groups and users.
+In the polls/admin.py file, we can register a model, and it will show up on the page similarly to the Groups and Users objects.
+
+Q6) Whatever number we put into the path is returned in the body of the page with the strings we put into the HTTPResponses of our view methods.
+If we change the type specification in the urls from int to str we can put any string value.
+
+Q7)
+
+Q8)
+
