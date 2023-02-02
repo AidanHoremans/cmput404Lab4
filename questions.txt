@@ -17,4 +17,5 @@ If we change the type specification in the urls from int to str we can put any s
 Q7) It's a good idea in general to avoid hardcoding. Hardcoding can cause issues with name conflicts, and with URLs in particular
 we may run into path problems for different file systems. If a name changes or a path changes, hardcoding will cause all sorts of issues.
 
-Q8) It's much simpler and more straightforward as a generic view, but gives less flexibility.
+Q8) It's much simpler and more straightforward to use a generic view, but gives less flexibility. The vote view for instance
+isn't using a generic view because it's far more dynamic than the other views.
